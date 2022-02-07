@@ -282,7 +282,7 @@ int main (int argc, char *argv[]) {
     int n_design = 1000;
     int max_iterations = 1000;
     double tolerance = 1e-10;
-    std::string cases_str;
+    std::string cases_str = "01234";
     std::string::size_type sz;
     if (argc >= 2) cases_str = argv[1];
     if (argc >= 3) n_design = std::stod(argv[2], &sz);
